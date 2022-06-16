@@ -1,0 +1,115 @@
+
+.navbar{
+    display:grid;
+
+    margin: 0;
+    margin-left: 500px; 
+    padding:0;
+    list-style-type: none;
+    text-align: center;
+    width:600px;
+
+}
+
+ .navbar li {
+     display:grid;
+     grid-row:2/4;
+    
+ }
+
+ .navbar a{
+     color:black;
+     padding: 5px 10px;
+     text-decoration: none;
+     display: inline-block;
+     width: 80px;
+ }
+
+ .navbar a:hover {
+    border-radius: 20px ;
+    color:white;
+    background-color: #0066ffa8;
+  }
+.aside{
+    display: grid;
+    text-align: center;
+    width:400px;
+    background: rgb(223, 209, 209);
+}
+.photo{
+    width: 200px;
+    margin-top:300px;
+    margin-left:100px;
+}
+.down{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    color: white;
+    margin-left: 100px;
+    background-color: rgb(37, 21, 253);
+}
+#Crdir{
+    width: 200px;
+    height: 30px;
+    border-radius: 20px;
+    color: black;
+    margin-left: 100px;
+    background-color: lightblue;
+    
+}
+.fa {
+    text-decoration: none;
+    display: inline;
+
+}
+
+
+.aboutme{
+    display: grid;
+    margin-left: 400px;
+    margin-right: 50px;
+    font-size: 20px;
+}
+ #polosa{
+    width: 100px;
+    margin-top: -100px;
+
+ }
+
+ .icon{
+     width: 50px;
+ }
+
+ .whatimdoing{
+     display:grid;
+     font-size: 20px;
+     border: 2px solid gray;
+     width: 500px;
+     height: 200px;
+     text-align: center;
+     border-radius: 20px;
+ }
+
+ .content{
+     display:grid;
+     margin-left: 400px;
+     grid-template-areas: "webdesign webdevelop"
+      "mobileapps photography  ";
+      grid-gap: 20px 20px;
+
+ }
+ 
+ .webdesign{
+     grid-area: "webdesign";
+ }
+ .webdevelop{
+    grid-area: "webdevelop";
+}
+.mobileapps{
+    grid-area: "mobileapps";
+}
+.photography{
+
+    grid-area: "photography";
+}
